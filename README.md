@@ -74,3 +74,34 @@ The project uses a MySQL database with three main tables:
 ## How to Use
 
 1. **Clone the repository:**
+2. 
+2. **Set up the database:**
+- Use `database_schema.sql` to create the MySQL schema.
+- Load cleaned CSV data into the respective tables.
+
+3. **Run analysis:**
+- Open `Fifa-World-Cup-Project.ipynb` in Jupyter Notebook.
+- Follow the notebook cells to reproduce data cleaning and analysis.
+
+---
+
+## Future Scope
+
+- Automate data import and cleaning using the MySQL Python connector for scalability and reproducibility.
+- Extend analysis to include recent tournaments (2018, 2022).
+- Add interactive dashboards for real-time exploration.
+- Enable community contributions for new features and data sources.
+
+---
+
+## Acknowledgments
+
+- [Kaggle](https://www.kaggle.com/datasets) for the FIFA World Cup data.
+- FIFA for official records and statistics.
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
+
